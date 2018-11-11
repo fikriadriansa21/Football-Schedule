@@ -20,16 +20,10 @@ class MainActivity : AppCompatActivity(), MainView {
     private var leagues: MutableList<League> = mutableListOf()
     private lateinit var presenter: MainPresenter
     private lateinit var adapter: MainAdapter
-//    private var listLeague = rvListLeague
-//    private var progressBar = progressBarLeague
-//    private var swipRefresh = swipeRefreshLeague
-//    private var listLeague = MainUI().listLeague
-//    private var progressBar = MainUI().progressBar
-//    private var swipeRefresh = MainUI().swipeRefresh
-
     private lateinit var listLeague: RecyclerView
     private lateinit var progressBar: ProgressBar
     private lateinit var swipeRefresh: SwipeRefreshLayout
+//    private lateinit var idLeague: String
 
 
 

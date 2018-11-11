@@ -5,6 +5,7 @@ buildscript {
     ext.anko_version = '0.10.7'
     repositories {
         google()
+        mavenCentral()
         jcenter()
     }
     dependencies {
